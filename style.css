@@ -1,0 +1,61 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KIoCLGUUDqJk_pBlpi4fnD8rMCbYt9E1AA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+br{
+    color: white;
+}
+p{
+    color: white;
+    text-align: center;
+}
+button {
+    text-align: center;
+    background-color: transparent;
+    border: 5px solid red;
+    color:white;
+    
+    font-family: 'Romanesco', cursive;
+}
+/* h2#btn {
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 300px;
+} */
+/* h1,
+h2 {
+    color: #eeee;
+    font-family: 'Romanesco', cursive;
+    font-size: 40px;
+    text-align: center;
+} */
+#container
+{
+    text-align: center;
+  border: 2px dotted white;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+}
+
+#fortune
+{
+    color: white;
+  border: 2px solid white;
+  background-color: darkslateblue;
+  padding: 20px;
+}
+div#fortune{
+    font-size: 40px;
+}
