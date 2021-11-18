@@ -62,50 +62,54 @@ var fortunes = [
 //     counter = (counter + 1) % arrayCarousel.length;
 // }
 // setInterval(setImage, 5000);
-var cars = {
-    make: "Toyota",
-    model: "Rav4",
-    year: 2020,
-    available: true,
-    description: "Toyotas initiative to build a one-size-fits-all suv to serve as a four-door family car"
-  }
+var Vegas = {
+Hotels: "Shangri-La Hotel Sydney, InterContinental Sydney, Four Seasons Hotel Sydney, Sydney Harbor Marriott Hotel at Circular Bay",
+
+Atractions: "Book a lavish cruise, witness fireworks over Sydney Harbor, attend various New Year events",
+
+Airport: "Kingsford Smith International Airport",
+
+IdealFor: "Families"
+}
+
+   
   
   function display() {
     var place = document.getElementById("submit");
   
-    for (value in toyota) {
-      place.innerHTML = "Make: " + cars.make + "<br>" +
-        "Model: " + cars.model + "<br>" +
-        "Year: " + cars.year + "<br>" +
-        "Available: " + cars.available + "<br>" +
-        "About: " + cars.description;
+    for (value in Vegas) {
+      place.innerHTML = "Hotels: " + Vegas.Hotels + "<br>" +
+        "Atractions: " + Vegas.Atractions + "<br>" +
+        "Airport: " + Vegas.Airport + "<br>" +
+        "Ideal for: " + Vegas.IdealFor + "<br>" +
+        "About: " + Vegas.description;
     }
   };
   
-  var toyota = {
-    make: "Toyota",
-    model: "Camry",
-    year: 2020,
-    available: true,
-    description: "The 2020 Toyota Camry is a great reliable car, and it's a real pleasure to drive."
+  var Miami = {
+    WheretoStay: "InterContinental Miami, Miami Marriott Biscayne Bay, JW Marriott Marquis Miami, Clevelander South Beach Hotel and Bar",
+    ThingstoDo: "Enjoy a yacht party, witness stunning fireworks over Miami Downtown and South Beach for free, enjoy rooftop parties at Sugar or EAST Miami.",
+    NearestAirport: "Fort Lauderdale International Airport"
+    // available: true,
+    // description: "The 2020 Toyota Camry is a great reliable car, and it's a real pleasure to drive."
   }
   
   function display2() {
     var place = document.getElementById("submit2");
   
-    for (value in toyota) {
-      place.innerHTML = "Make: " + toyota.make + "<br>" +
-        "Model: " + toyota.model + "<br>" +
-        "Year: " + toyota.year + "<br>" +
-        "Available: " + toyota.available + "<br>" +
-        "About: " + toyota.description;
+    for (value in Miami) {
+      place.innerHTML = "Where to stay: " + Miami.WheretoStay + "<br>" +
+        "Things to do: " + Miami.ThingstoDo + "<br>" +
+        "Near by Airports: " + Miami.NearestAirport + "<br>" +
+        "Available: " + Miami.available + "<br>" +
+        "About: " + Miami.description;
     }
   };
   
-  var car = {
-    make: "Toyota",
-    model: "Tacoma",
-    year: 2020,
+  var Australia = {
+    make: "Shangri-La Hotel Sydney, InterContinental Sydney, Four Seasons Hotel Sydney, Sydney Harbor Marriott Hotel at Circular Bay.",
+    model: "Book a lavish cruise, witness fireworks over Sydney Harbor, attend various New Year events.",
+    year: " Kingsford Smith International Airport",
     available: true,
     description: "The 2020 Toyota Tacoma also received the same reliability rating. The organization says three out of five is about average for reliability."
   }
@@ -113,10 +117,10 @@ var cars = {
   function display3() {
     var place = document.getElementById("submit3");
   
-    for (value in car) {
-      place.innerHTML = "Make: " + car.make + "<br>" +
-        "Model: " + car.model + "<br>" +
-        "Year: " + car.year + "<br>" +
+    for (value in Australia) {
+      place.innerHTML = "Where to stay: " + Australia.make + "<br>" +
+        "Things to do: " + Australia.model + "<br>" +
+        "Near by Airports: " + Australia.year + "<br>" +
         "Available: " + car.available + "<br>" +
         "About: " + car.description;
     }
