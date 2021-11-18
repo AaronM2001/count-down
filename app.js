@@ -6,7 +6,7 @@ if (ageCheck < 18) {
 } else {
     alert("Welcome to the page " + name + "!")
 }
-var countDownDate = new Date("Jan 1, 2022 15:37:25").getTime();
+var countDownDate = new Date("Jan 1, 2022 0:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -30,7 +30,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "HAPPY NEW YEAR!!";
   }
 }, 1000);
 var fortunes = [

@@ -19,6 +19,10 @@ p{
     color: white;
     text-align: center;
 }
+li{
+    color: seagreen;
+    
+}
 button {
     text-align: center;
     background-color: transparent;
@@ -58,4 +62,14 @@ h2 {
 }
 div#fortune{
     font-size: 40px;
+}
+#demo{
+    background-image: url(images/two.png);
+    color: tomato;
+    background-color: purple;
+    /* background-repeat: no-repeat;
+background-size: cover; */
+height: 100px;
+    padding: 15px 5px;
+
 }
