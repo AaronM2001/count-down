@@ -1,75 +1,52 @@
-body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KIoCLGUUDqJk_pBlpi4fnD8rMCbYt9E1AA&usqp=CAU);
-    background-repeat: no-repeat;
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%
+  }
+  
+  .bgimg {
+    /* Background image */
+    background-image: url(./images/cr.jpg);
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
     background-size: cover;
-    background-attachment: fixed;
-}
-h1{
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
     color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+  }
+  
+  /* Position text in the top-left corner */
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-}
-h2{
-    color: white;
-    text-align: center;
-}
-br{
-    color: white;
-}
-p{
-    color: white;
-    text-align: center;
-}
-li{
-    color: seagreen;
-    
-}
-button {
-    text-align: center;
-    background-color: transparent;
-    border: 5px solid red;
-    color:white;
-    
-    font-family: 'Romanesco', cursive;
-}
-/* h2#btn {
-    color: black;
-    font-size: 48px;
-    text-align: center;
-    margin-top: 300px;
-} */
-/* h1,
-h2 {
-    color: #eeee;
-    font-family: 'Romanesco', cursive;
-    font-size: 40px;
-    text-align: center;
-} */
-#container
-{
-    text-align: center;
-  border: 2px dotted white;
-  color: white;
-  margin: 20px;
-  padding: 10px;
-}
-
-#fortune
-{
-    color: white;
-  border: 2px solid white;
-  background-color: darkslateblue;
-  padding: 20px;
-}
-div#fortune{
-    font-size: 40px;
-}
-#demo{
-    background-image: url(images/two.png);
-    color: tomato;
-    background-color: purple;
-    /* background-repeat: no-repeat;
-background-size: cover; */
-height: 100px;
-    padding: 15px 5px;
-
-}
+  }
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
+  }
